@@ -1,0 +1,16 @@
+{
+    "name": "wj/swoole-jobs",
+    "description": "基于swoole的job调度组件",
+    "keywords": ["swoole", "job", "scheduler", "调度"],
+    "homepage": "https://github.com/kcloze/swoole-jobs",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4",
+    },
+    "autoload": {
+        "psr-4": {
+            "Kcloze\\Jobs\\": "src",
+            "Kcloze\\MyJob\\": "test\\jobs"
+        }
+    }
+}
